@@ -11,9 +11,11 @@
 
 using namespace std;
 
-// ── helpers ──────────────────────────────────────────────────────────────────
-void bar(char c = '-', int n = 58) { cout << string(n, c) << "\n"; }
-void center(const string& s, int w = 58) {
+//helper fn
+void bar(char c = '-', int n = 60) { 
+    cout << string(n, c) << "\n";
+}
+void center(const string& s, int w = 60) {
     int p = (w - (int)s.size()) / 2;
     cout << string(max(0,p), ' ') << s << "\n";
 }
@@ -22,18 +24,25 @@ string trim(const string& s) {
     size_t b = s.find_last_not_of(" \t\r\n");
     return a == string::npos ? "" : s.substr(a, b - a + 1);
 }
-string lower(string s) { transform(s.begin(),s.end(),s.begin(),::tolower); return s; }
+string lower(string s) { 
+    transform(s.begin(),s.end(),s.begin(),::tolower); 
+    return s; 
+}
 vector<string> splitCSV(const string& line) {
     vector<string> f; string t; bool q=false;
     for (char c : line) {
         if (c=='"') q=!q;
-        else if (c==',' && !q) { f.push_back(trim(t)); t.clear(); }
+        else if (c==',' && !q) { 
+            f.push_back(trim(t)); 
+            t.clear(); 
+        }
         else t+=c;
     }
-    f.push_back(trim(t)); return f;
+    f.push_back(trim(t)); 
+    return f;
 }
 
-// ── emotion system ────────────────────────────────────────────────────────────
+//emotional system
 enum class Emotion { SAD, ANGRY, ANXIOUS, BORED, HAPPY, UNKNOWN };
 
 string emotionName(Emotion e) {
@@ -77,7 +86,7 @@ Emotion pickEmotion(int n) {
     }
 }
 
-// ── abstract base class ───────────────────────────────────────────────────────
+// abstract base class
 class Item {
 protected:
     string title, genre, tag;
@@ -90,10 +99,12 @@ public:
     virtual void show(int i) const = 0;
     virtual string kind() const = 0;
     const string& getTitle() const { return title; }
-    bool matches(const string& t) const { return lower(tag)==lower(t); }
+    bool matches(const string& t) const {
+        return lower(tag)==lower(t);
+    }
 };
 
-// ── Movie ─────────────────────────────────────────────────────────────────────
+// movie
 class Movie : public Item {
     double rating;
 public:
@@ -107,8 +118,7 @@ public:
              << "\n     Genre: " << genre << "\n";
     }
 };
-
-// ── Song ──────────────────────────────────────────────────────────────────────
+// song
 class Song : public Item {
     string artist;
 public:
@@ -123,8 +133,7 @@ public:
              << "     Genre: " << genre << "\n";
     }
 };
-
-// ── Book ──────────────────────────────────────────────────────────────────────
+//book
 class Book : public Item {
     string author;
     double rating;
@@ -139,8 +148,7 @@ public:
              << "     By: " << author << " | Genre: " << genre << "\n";
     }
 };
-
-// ── template data loader ──────────────────────────────────────────────────────
+//temp
 template<typename T>
 class Loader {
     vector<T> data;
@@ -183,12 +191,13 @@ template<> bool Loader<Book>::load() {
     while (getline(f, line)) {
         if (line.empty()) continue;
         auto v = splitCSV(line); if (v.size()<6) continue;
-        try { data.emplace_back(v[0],v[1],v[2],v[3],stoi(v[4]),stod(v[5])); } catch(...){}
+        try { 
+            data.emplace_back(v[0],v[1],v[2],v[3],stoi(v[4]),stod(v[5])); 
+        } catch(...){}
     }
     return !data.empty();
 }
-
-// ── engine ────────────────────────────────────────────────────────────────────
+//engine
 class Engine {
     Loader<Movie> ML;
     Loader<Song>  SL;
@@ -235,8 +244,7 @@ public:
         return BL.size(); 
     }
 };
-
-// ── user profile ──────────────────────────────────────────────────────────────
+//user profile
 class Profile {
     string name, histFile;
     vector<pair<string,string>> history;
@@ -273,7 +281,7 @@ public:
     }
 };
 
-// ── UI ────────────────────────────────────────────────────────────────────────
+//ui
 class UI {
     Engine&  eng;
     Profile& prof;
@@ -296,7 +304,10 @@ public:
         bar('='); center("Recommendations"); bar('=');
         cout << "\n  >> " << emotionMsg(em) << "\n\n";
         auto mv=eng.movies(tag); auto sg=eng.songs(tag); auto bk=eng.books(tag);
-        section("MOVIES",mv); cout<<"\n"; section("SONGS",sg); cout<<"\n"; section("BOOKS",bk);
+        section("MOVIES",mv);
+        cout<<endl; 
+        section("SONGS",sg); cout<<endl;
+        section("BOOKS",bk);
         if (!mv.empty()) prof.log(em, mv[0]->getTitle());
         if (!sg.empty()) prof.log(em, sg[0]->getTitle());
         if (!bk.empty()) prof.log(em, bk[0]->getTitle());
@@ -304,7 +315,10 @@ public:
         string t; getline(cin,t); if (!t.empty()) prof.addFav(t);
     }
     void search() {
-        cout << "  Keyword: "; string q; getline(cin,q); if (q.empty()) return;
+        cout << "  Keyword: ";
+        string q; 
+        getline(cin,q);
+        if (q.empty()) return;
         vector<const Movie*> mv; vector<const Song*> sg; vector<const Book*> bk;
         eng.search(q,mv,sg,bk);
         bar('='); center("Results: "+q); bar('=');
@@ -354,7 +368,7 @@ public:
     }
 };
 
-// ── main ──────────────────────────────────────────────────────────────────────
+//main
 int main() {
     bar('='); center("Welcome to MoodMuse"); bar('=');
     cout << "  Your name: "; string name; getline(cin,name);
