@@ -1,7 +1,3 @@
-/*  MoodMuse — Emotion-Based Recommendation System
-    OOP in C++ | Abstract class, Inheritance, Templates, File handling
-    Emotion mapping: sad->happy, angry->calm, anxious->uplifting,
-                     bored->engaging, happy->happy               */
 
 #include <iostream>
 #include <fstream>
