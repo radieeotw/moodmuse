@@ -1,0 +1,96 @@
+title,author,genre,emotion_tag,year,rating
+The Bell Jar,Sylvia Plath,Fiction,sad,1963,7.9
+A Little Life,Hanya Yanagihara,Fiction,sad,2015,8.0
+Me Before You,Jojo Moyes,Romance,sad,2012,7.8
+The Lovely Bones,Alice Sebold,Fiction,sad,2002,7.3
+Flowers for Algernon,Daniel Keyes,SciFi,sad,1966,8.0
+Of Mice and Men,John Steinbeck,Classic,sad,1937,7.8
+The Road,Cormac McCarthy,Fiction,sad,2006,7.9
+Never Let Me Go,Kazuo Ishiguro,SciFi,sad,2005,7.8
+When Breath Becomes Air,Paul Kalanithi,Memoir,sad,2016,8.1
+Option B,Sheryl Sandberg,Self-Help,sad,2017,7.0
+Tuesdays with Morrie,Mitch Albom,Memoir,sad,1997,7.8
+The Year of Magical Thinking,Joan Didion,Memoir,sad,2005,7.5
+Grief is the Thing with Feathers,Max Porter,Fiction,sad,2015,7.2
+A Grief Observed,C.S. Lewis,Memoir,sad,1961,8.0
+Where the Crawdads Sing,Delia Owens,Mystery,sad,2018,8.1
+The Light We Lost,Jill Santopolo,Romance,sad,2017,7.4
+All the Bright Places,Jennifer Niven,YA,sad,2015,7.5
+Looking for Alaska,John Green,YA,sad,2005,7.7
+The Perks of Being a Wallflower,Stephen Chbosky,YA,sad,1999,7.9
+Extremely Loud and Incredibly Close,Jonathan Safran Foer,Fiction,sad,2005,7.2
+The Hitchhiker's Guide to the Galaxy,Douglas Adams,SciFi,happy,1979,8.4
+Good Omens,Terry Pratchett,Fantasy,happy,1990,8.2
+The House in the Cerulean Sea,TJ Klune,Fantasy,happy,2020,8.0
+A Man Called Ove,Fredrik Backman,Fiction,happy,2012,7.9
+Eleanor Oliphant is Completely Fine,Gail Honeyman,Fiction,happy,2017,7.6
+The Rosie Project,Graeme Simsion,RomCom,happy,2013,7.4
+Bridget Jones's Diary,Helen Fielding,RomCom,happy,1996,7.0
+Bossypants,Tina Fey,Humor,happy,2011,7.6
+Yes Please,Amy Poehler,Humor,happy,2014,7.2
+Born a Crime,Trevor Noah,Memoir,happy,2016,8.0
+The Alchemist,Paulo Coelho,Fiction,happy,1988,7.7
+The Secret,Rhonda Byrne,Self-Help,happy,2006,6.7
+Man's Search for Meaning,Viktor Frankl,Memoir,happy,1946,8.5
+When Things Fall Apart,Pema Chodron,Self-Help,happy,2000,8.0
+Ikigai,Hector Garcia,Self-Help,happy,2016,7.4
+The Happiness Advantage,Shawn Achor,Self-Help,happy,2010,7.5
+Feeling Good,David Burns,Self-Help,happy,1980,8.0
+You Are a Badass,Jen Sincero,Self-Help,happy,2013,7.2
+Big Magic,Elizabeth Gilbert,Self-Help,happy,2015,7.6
+The Book of Joy,Dalai Lama,Spirituality,happy,2016,8.2
+12 Rules for Life,Jordan Peterson,Self-Help,angry,2018,7.0
+The 48 Laws of Power,Robert Greene,Self-Help,angry,1998,7.7
+No More Mr Nice Guy,Robert Glover,Self-Help,angry,2003,7.3
+Can't Hurt Me,David Goggins,Memoir,angry,2018,8.0
+Extreme Ownership,Jocko Willink,Self-Help,angry,2015,7.8
+The War of Art,Steven Pressfield,Self-Help,angry,2002,7.9
+The Prince,Niccolo Machiavelli,Classic,angry,1532,7.7
+The Art of War,Sun Tzu,Classic,angry,500,7.8
+American War,Omar El Akkad,Fiction,angry,2017,7.1
+A Long Way Gone,Ishmael Beah,Memoir,angry,2007,7.8
+The Kite Runner,Khaled Hosseini,Fiction,angry,2003,8.1
+A Thousand Splendid Suns,Khaled Hosseini,Fiction,angry,2007,8.1
+To Kill a Mockingbird,Harper Lee,Classic,angry,1960,8.4
+Native Son,Richard Wright,Classic,angry,1940,7.7
+The Color Purple,Alice Walker,Fiction,angry,1982,7.9
+1984,George Orwell,Dystopia,angry,1949,8.4
+Animal Farm,George Orwell,Satire,angry,1945,7.9
+Lord of the Flies,William Golding,Classic,angry,1954,7.7
+Slaughterhouse-Five,Kurt Vonnegut,SciFi,angry,1969,8.1
+Blood Meridian,Cormac McCarthy,Fiction,angry,1985,7.9
+The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,anxious,2016,7.7
+Untamed,Glennon Doyle,Memoir,anxious,2020,7.6
+The Body Keeps the Score,Bessel van der Kolk,Psychology,anxious,2014,8.2
+Why Has Nobody Told Me This Before,Julie Smith,Psychology,anxious,2022,7.8
+Anxiety Free,Robert Leahy,Psychology,anxious,2009,7.5
+The Worry Cure,Robert Leahy,Psychology,anxious,2005,7.7
+Dare,Barry McDonagh,Self-Help,anxious,2015,8.0
+First We Make the Beast Beautiful,Sarah Wilson,Memoir,anxious,2017,7.3
+Hello I Want to Die Please Fix Me,Anna Mehler Paperny,Memoir,anxious,2019,7.1
+Maybe You Should Talk to Someone,Lori Gottlieb,Memoir,anxious,2019,8.1
+Catch-22,Joseph Heller,Classic,anxious,1961,7.9
+The Trial,Franz Kafka,Classic,anxious,1925,7.5
+The Metamorphosis,Franz Kafka,Classic,anxious,1915,7.8
+Crime and Punishment,Fyodor Dostoevsky,Classic,anxious,1866,8.3
+The Stranger,Albert Camus,Classic,anxious,1942,7.8
+Notes from Underground,Fyodor Dostoevsky,Classic,anxious,1864,7.9
+Stoner,John Williams,Fiction,anxious,1965,8.0
+The Remains of the Day,Kazuo Ishiguro,Fiction,anxious,1989,7.9
+The Unbearable Lightness of Being,Milan Kundera,Fiction,anxious,1984,8.1
+Norwegian Wood,Haruki Murakami,Fiction,anxious,1987,7.9
+Surely You're Joking Mr Feynman,Richard Feynman,Memoir,bored,1985,8.5
+A Short History of Nearly Everything,Bill Bryson,Science,bored,2003,8.4
+Cosmos,Carl Sagan,Science,bored,1980,8.5
+The Grand Design,Stephen Hawking,Science,bored,2010,7.4
+Sapiens,Yuval Noah Harari,History,bored,2011,8.4
+Guns Germs and Steel,Jared Diamond,History,bored,1997,7.9
+The Code Book,Simon Singh,Science,bored,1999,8.1
+Astrophysics for People in a Hurry,Neil deGrasse Tyson,Science,bored,2017,7.5
+The Feynman Lectures on Physics,Richard Feynman,Science,bored,1964,9.0
+Thing Explainer,Randall Munroe,Humor,bored,2015,7.6
+Kitchen Confidential,Anthony Bourdain,Memoir,bored,2000,8.2
+Into the Wild,Jon Krakauer,Memoir,bored,1996,7.8
+Into Thin Air,Jon Krakauer,Memoir,bored,1997,8.0
+Eat Pray Love,Elizabeth Gilbert,Memoir,bored,2006,6.9
+Wild,Cheryl Strayed,Memoir,bored,2012,7.3

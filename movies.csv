@@ -1,0 +1,96 @@
+title,genre,emotion_tag,year,rating
+The Pursuit of Happyness,Drama,sad,2006,8.0
+Inside Out,Animation,sad,2015,8.1
+Up,Animation,sad,2009,8.2
+Toy Story,Animation,sad,2019,7.7
+Good Will Hunting,Drama,sad,1997,8.3
+Schindler's List,Drama,sad,1993,8.9
+The Fault in Our Stars,Romance,sad,2014,7.7
+Forrest Gump,Drama,sad,1994,8.8
+A Beautiful Mind,Drama,sad,2001,8.2
+Marley and Me,Drama,sad,2008,7.1
+Hachi A Dog's Tale,Drama,sad,2009,8.1
+The Green Mile,Drama,sad,1999,8.6
+PS I Love You,Romance,sad,2007,7.1
+My Girl,Drama,sad,1991,6.9
+Stepmom,Drama,sad,1998,6.9
+Beaches,Drama,sad,1988,6.7
+Terms of Endearment,Drama,sad,1983,7.4
+Steel Magnolias,Drama,sad,1989,7.3
+The Notebook,Romance,sad,2004,7.8
+Titanic,Romance,sad,1997,7.9
+The Shawshank Redemption,Drama,happy,1994,9.3
+Life Is Beautiful,Comedy,happy,1997,8.6
+Coco,Animation,happy,2017,8.4
+Paddington,Family,happy,2014,7.6
+Sing,Animation,happy,2016,7.0
+The Secret Life of Pets,Animation,happy,2016,6.5
+Zootopia,Animation,happy,2016,8.0
+Ratatouille,Animation,happy,2007,8.1
+Finding Nemo,Animation,happy,2003,8.1
+The Lego Movie,Animation,happy,2014,7.7
+Happy Gilmore,Comedy,happy,1996,7.3
+Elf,Comedy,happy,2003,7.0
+Mrs Doubtfire,Comedy,happy,1993,7.1
+Home Alone,Comedy,happy,1990,7.7
+The Intouchables,Drama,happy,2011,8.5
+Mamma Mia,Musical,happy,2008,6.4
+La La Land,Musical,happy,2016,8.0
+Enchanted,Musical,happy,2007,7.1
+Hitch,RomCom,happy,2005,6.6
+Crazy Rich Asians,RomCom,happy,2018,6.9
+John Wick,Action,angry,2014,7.4
+Mad Max Fury Road,Action,angry,2015,8.1
+Kill Bill Vol 1,Action,angry,2003,8.1
+Gladiator,Action,angry,2000,8.5
+The Dark Knight,Action,angry,2008,9.0
+Equalizer,Action,angry,2014,7.2
+Taken,Thriller,angry,2008,7.8
+Man on Fire,Action,angry,2004,7.7
+Prisoners,Thriller,angry,2013,8.1
+Law Abiding Citizen,Thriller,angry,2009,7.4
+Hacksaw Ridge,War,angry,2016,8.2
+Training Day,Crime,angry,2001,7.7
+The Revenant,Drama,angry,2015,8.0
+American History X,Drama,angry,1998,8.5
+Whiplash,Drama,angry,2014,8.5
+Warrior,Drama,angry,2011,8.2
+Uncut Gems,Thriller,angry,2019,7.4
+Joker,Drama,angry,2019,8.4
+There Will Be Blood,Drama,angry,2007,8.2
+Network,Drama,angry,1976,8.1
+Inception,SciFi,anxious,2010,8.8
+Black Swan,Thriller,anxious,2010,8.0
+Paranormal Activity,Horror,anxious,2007,6.3
+Get Out,Horror,anxious,2017,7.7
+A Quiet Place,Horror,anxious,2018,7.5
+The Truman Show,Drama,anxious,1998,8.2
+Nightcrawler,Thriller,anxious,2014,7.9
+Shutter Island,Thriller,anxious,2010,8.2
+Gone Girl,Thriller,anxious,2014,8.1
+The Machinist,Thriller,anxious,2004,7.7
+Memento,Thriller,anxious,2000,8.4
+Hereditary,Horror,anxious,2018,7.3
+Rosemary's Baby,Horror,anxious,1968,8.0
+1408,Horror,anxious,2007,6.8
+The Sixth Sense,Horror,anxious,1999,8.1
+Se7en,Crime,anxious,1995,8.6
+Room,Thriller,anxious,2015,8.1
+Zodiac,Crime,anxious,2007,7.7
+Unbreakable,Thriller,anxious,2000,7.3
+The Others,Horror,anxious,2001,7.6
+The Grand Budapest Hotel,Comedy,bored,2014,8.1
+Knives Out,Mystery,bored,2019,7.9
+Clue,Mystery,bored,1985,7.3
+The Princess Bride,Adventure,bored,1987,8.1
+Monty Python and the Holy Grail,Comedy,bored,1975,8.2
+Ferris Buellers Day Off,Comedy,bored,1986,7.8
+The Nice Guys,Comedy,bored,2016,7.3
+Game Night,Comedy,bored,2018,7.0
+Hot Fuzz,Comedy,bored,2007,7.9
+Shaun of the Dead,Comedy,bored,2004,7.9
+Ocean's Eleven,Heist,bored,2001,7.7
+Catch Me If You Can,Crime,bored,2002,8.1
+Now You See Me,Thriller,bored,2013,7.3
+The Prestige,Thriller,bored,2006,8.5
+Interstellar,SciFi,bored,2014,8.6
